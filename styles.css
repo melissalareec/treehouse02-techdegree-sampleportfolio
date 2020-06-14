@@ -15,11 +15,14 @@ body {
 .sitetitle {
     color: black;
     text-transform: uppercase;
-    font-size: 24px;
+    font-size: 22px;
     font-family: 'Quattrocento', serif;
     font-weight: 600;
     text-align: center;
-    padding: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 h3 {
@@ -130,23 +133,28 @@ footer p {
 
 @media (min-width: 769px) {
     nav {
+        
         text-align: center;
+        width: 100%;
         background-color: white;
     }
 
     .sitetitle {
         margin: 0 auto;
-        padding-top: 25px;
+        padding: 35px;
+        font-size: 22px;
+        text-align: center;
 
     }
     
     .navbar {
         margin: 0 auto;
-        padding: 20px;
+        padding-bottom: 20px;
+        text-align: center;
     }
     
     .navlink {
-margin: 10px;
+        margin: 10px;
         display: inline-block;
         padding: 15px;
     }
@@ -191,12 +199,17 @@ margin: 10px;
     .sitetitle {
         float: left;
         padding: 35px;
-        width: 50%;
+        width: 60%;
+        text-align: left;
+        font-size: 24px;
     }
     
     .navbar {
-        width: 50%;
-        padding: 20px;
+        width: 40%;
+        padding-top: 30px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+        padding-left: 20px;
         float: right;
         text-align: right;
     }
