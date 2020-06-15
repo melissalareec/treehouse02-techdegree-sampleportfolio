@@ -14,9 +14,10 @@
             <h2>Melissa Laree Cunningham</h2>
         </div>
         <div class="navbar">
-            <h3 class="navlink"><a href="index.html">Home</a></h3>
-            <h3 class="navlink"><a href="#portfolio">Portfolio</a></h3>
-            <h3 class="navlink"><a href="#contact">Contact</a></h3>
+            <h4 class="navlink"><a href="index.html">Home</a></h4>
+            <h4 class="navlink"><a href="#portfolio">Portfolio</a></h4>
+            <h4 class="navlink"><a href="#resume">Resume</a></h4>
+            <h4 class="navlink"><a href="#contact">Contact</a></h4>
         </div>
     </nav>
 
@@ -25,38 +26,80 @@
         <img src="images/profile-pic.png" alt="profile picture">
     </header>
 
-    <main class="container">
-        <h3 id="portfolio">Portfolio</h3>
-        <div class="portfolio-box">
-            <img src="images/portfolio-marketing.png" class="portfolio-sample-img" alt="Marketing Page Sample">
-            <h4>Marketing Page</h4>
-            <p> This project shows the front page of a marketing website meant for a specific business I'm interested in.</p>
-        </div>
-        <div class="portfolio-box">
-            <img src="images/portfolio-search.png" class="portfolio-sample-img" alt="Search Page Sample">
-            <h4>Search Page</h4>
-            <p>This project searches through a specific database to find information that the user is trying to look up</p>
-        </div>
-        <div class="portfolio-box">
-            <img src="images/portfolio-travel-app.png" class="portfolio-sample-img" alt="Travel App Sample">
-            <h4>Travel App</h4>
-            <p>This project compares travel times based on different transportation methods and tells you the best one.</p>
-        </div>
-        <div class="portfolio-box">
-            <img src="images/portfolio-map.png" class="portfolio-sample-img" alt="Map Sample">
-            <h4>Map of Favorite Spots</h4>
-            <p>This project uses mapping apis to plot points for my favorite spots in the city for a di-it yourself walking tour.</p>
-        </div>
-        <div class="portfolio-box">
-            <img src="images/portfolio-gallery.png" class="portfolio-sample-img" alt="Photo Gallery Sample">
-            <h4>Photo Gallery</h4>
-            <p>This project shows pictures from a recent trip to the viewer and allows them to easily navigate through photos.</p>
-        </div>
-        <div class="portfolio-box">
-        <img src="images/portfolio-calculator.png" class= "portfolio-sample-img" alt="Calculator Sample">
-        <h4>Calculator</h4>
-        <p>Someone can enter in the numbers they want, and press the big blue button and get the result.</p>
-        </div>
+    <main>
+        <section class="container">
+            <h3 id="portfolio">Portfolio</h3>
+            <div class="portfolio-box">
+                <img src="images/portfolio-marketing.png" class="portfolio-sample-img" alt="Marketing Page Sample">
+                <h4>Marketing Page</h4>
+                <p> This project shows the front page of a marketing website meant for a specific business I'm interested in.</p>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/portfolio-search.png" class="portfolio-sample-img" alt="Search Page Sample">
+                <h4>Search Page</h4>
+                <p>This project searches through a specific database to find information that the user is trying to look up</p>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/portfolio-travel-app.png" class="portfolio-sample-img" alt="Travel App Sample">
+                <h4>Travel App</h4>
+                <p>This project compares travel times based on different transportation methods and tells you the best one.</p>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/portfolio-map.png" class="portfolio-sample-img" alt="Map Sample">
+                <h4>Map of Favorite Spots</h4>
+                <p>This project uses mapping apis to plot points for my favorite spots in the city for a di-it yourself walking tour.</p>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/portfolio-gallery.png" class="portfolio-sample-img" alt="Photo Gallery Sample">
+                <h4>Photo Gallery</h4>
+                <p>This project shows pictures from a recent trip to the viewer and allows them to easily navigate through photos.</p>
+            </div>
+            <div class="portfolio-box">
+            <img src="images/portfolio-calculator.png" class= "portfolio-sample-img" alt="Calculator Sample">
+            <h4>Calculator</h4>
+            <p>Someone can enter in the numbers they want, and press the big blue button and get the result.</p>
+            </div>
+        </section>
+
+        <section class="resume-wrapper">
+           <div class="experience-wrapper"> 
+            <h3 id="resume">Resume</h3>
+                <div class="resume-box">
+                    <h4>Experience</h4>
+                    <div class="experience-content">
+                        <h5> Freelance: 2019-2020</h5>
+                        <ul>
+                            <li>Design new Web storefront for Mary & Moss, Shopify</li>
+                            <li>Manage and create social media strategy for University of Texas at Arlington Arts & Art History department</li>
+                            <li>Design website for Barnett Photo Foundation Award, Squarespace</li>
+                        </ul>
+                    </div>
+                    <div class="experience-content">
+                        <h5>Librarian/Teacher</h5>
+                        <ul>
+                            <li>Utilize analytics to develop a strategic plan for increasing engagement with library resources and materials</li>
+                            <li>Build web presence for student/community engagement with new website and social media
+                            <li>Interpret data  and create visualization reports for stakeholders</li>
+                            <li>Honorary mention in TLA Library Re-Branding Award</li>
+                            <li>Chair the library Curriculum and Technology Committee in district</li>
+                            <li>Lead project to renovate and retrofit library space for technology use and flexible community programming</li>
+                            <li>Mentor peer teachers for innovative teaching strategies, technology integration, and enrichment programs</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            
+                <div class="resume-box education-box">
+                    <h4>Education</h4>
+                    <div id="education-content">
+                        <h5>Front End Development Techdegree, Treehouse 2020</h5>
+                        <h5> Master of Library and Information Science, UNT 2016</h5>
+                        <h5>Bachelor of English, UNT 2007</h5>
+                    </div>
+                </div>
+        </section>
+    
     </main>
 
     <footer class="footer-container">
@@ -64,5 +107,17 @@
         <p> If you're interested in chatting or want more information <br> about what I've been working on, I'd love to hear from you!</p>
         <p> Phone <strong>832-378-3922</strong></p>
         <p> Email <strong><a href="mailto:melissa.cunningham@pm.me">melissa.cunningham@pm.me</a></strong></p>
+    </footer>
+
+    <footer class="footer-nav">
+        <h5>Melissa L. Cunningham</h5>
+        <ul class="footer-nav-links">
+            <li class="mobile-footer-link"><a href="index.html">Back To Top</a></li>
+            <li class="wide-footer-link"><a href="index.html">Home</a></li>
+            <li class="wide-footer-link"><a href="#portfolio">Portfolio</a></li>
+            <li class="wide-footer-link"><a href="#contact" >Contact</a></li>
+            <li class="wide-footer-link"><a href="#resume">Resume</a></li>
+        </ul>
+
     </footer>
 </body>

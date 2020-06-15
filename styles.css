@@ -13,7 +13,7 @@ body {
 
 /* Basic Styles */
 .sitetitle {
-    color: black;
+    color: white;
     text-transform: uppercase;
     font-size: 22px;
     font-family: 'Quattrocento', serif;
@@ -27,32 +27,33 @@ body {
 
 h3 {
     text-transform: uppercase;
-    font-size: 20px;
+    font-size: 2rem;
     font-family: 'Quicksand', sans-serif;
+    text-align: center;
 }
 
-h3 a {
+h4 a {
     text-decoration: none;
     color: darkslategrey
 }
 
-h3 a:hover {
+h4 a:hover {
     color: lightgray;
 }
 
-h3 a:after {
+h4 a:after {
     color: lightseagreen;
 }
 
 h4 {
     color: #666666;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 nav, 
 .header-container {
     width: 100%;
-    background-color: #e5e5e5;
+    background-color: #f5cb5c;
 }
 
 .header-container p {
@@ -60,6 +61,8 @@ nav,
     width: 90%;
     padding-bottom: 20px;
 }
+
+
 
 /* Layout */
 nav {
@@ -112,11 +115,46 @@ nav {
     
 }
 
+.resume-wrapper {
+    width: 100%;
+    padding-bottom: 25px;
+}
+ .resume-wrapper h3 {
+     padding: 15px;
+margin-bottom: 15px;
+     background-color: #e9ecef;
+ }
+
+ .resume-box {
+     padding: 5px;
+     margin-top: 5px;
+     width: 90%;
+    
+ }
+
+ .resume-box h4 {
+     padding-bottom: 15px;
+     text-align: center;
+ }
+
+ .resume-box ul {
+     padding-top: 15px;
+     padding-bottom: 15px;
+ }
+
+ h5 {
+     padding-top: 10px;
+     margin-bottom: 10px;
+}
+.education-box {
+    border-top: solid .5px darkslategray;
+}
+
 .footer-container {
     margin: 0 auto;
     width: 100%;
-    background-color: #e5e5e5;
-    padding-top: 40px;
+    background-color: #f5cb5c;
+    padding-top: 20px;
     padding-bottom: 40px;
     text-align: center;
 }
@@ -128,8 +166,61 @@ nav {
 footer p {
     width: 90%;
     margin-top: 25px;
-
 }
+
+
+
+.footer-nav {
+    background-color: white;
+    width: 95%;
+    height: 10%;
+    color: darkslategray;
+}
+
+.footer-nav h5 {
+    font-size: 18px;
+    float: left;
+    line-height: 2em;
+}
+
+.footer-nav-links {
+    float: right;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.footer-nav li {
+    display: inline-block;
+    text-align: right;
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+.footer-nav a {
+    text-decoration: none;
+    color: darkslategrey
+}
+.footer-nav a:hover {
+    color: lightgray;
+}
+
+.footer-nav a:after {
+    color: lightseagreen;
+}
+
+.mobile-footer-link {
+    display: auto;
+}
+
+.wide-footer-link {
+    display: none;
+}
+
+
+
+
+
+
 
 /* Media Queries for Larger Screen */
 
@@ -138,7 +229,7 @@ footer p {
         
         text-align: center;
         width: 100%;
-        background-color: white;
+        background-color: #f5cb5c;
     }
 
     .sitetitle {
@@ -159,6 +250,8 @@ footer p {
         margin: 10px;
         display: inline-block;
         padding: 15px;
+        background-color: #f5cb5c;
+        color: white;
     }
 
     .header-container {
@@ -182,14 +275,35 @@ footer p {
     .container {
         display: inline-block;
         text-align: center;
-        padding-bottom: 50px;
+        padding-bottom: 10px;
         width: 100%;
     }
 
     .portfolio-box {
-       float: left;
+        float: left;
         width: 50%;
+        min-height: 431px;
     } 
+
+
+   
+    .footer-nav {
+        width: 90%;
+        height: 5%;
+        color: darkslategray;
+        font-size: 16px;
+    }
+
+    .wide-footer-link {
+        display: auto;
+    }
+    
+    .mobile-footer-link {
+        display: none;
+    }
+
+   
+
    
 }
 
@@ -201,17 +315,17 @@ footer p {
     .sitetitle {
         float: left;
         padding: 35px;
-        width: 60%;
+        padding-right: 0;
+        width: 55%;
         text-align: left;
-        font-size: 24px;
+        font-size: 20px;
     }
     
     .navbar {
-        width: 40%;
+        width: 45%;
         padding-top: 30px;
         padding-right: 20px;
         padding-bottom: 20px;
-        padding-left: 20px;
         float: right;
         text-align: right;
     }
@@ -219,7 +333,7 @@ footer p {
     .navlink {
         margin: 0 auto;
         display: inline-block;
-        padding: 15px;
+        font-size: 18px;
     }
 
     .header-container {
@@ -242,11 +356,35 @@ footer p {
     .container {
         width: 100%;
         margin: 0 auto;
-        padding-bottom: 50px;
+        padding-bottom: 10px;
     }
 
     .portfolio-box {
         text-align: center;
         width: 33%;
     }
+
+    #resume {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .experience-wrapper {
+        width: 100%;
+    }
+
+    .experience-content {
+        float: left;
+        width: 50%;
+        padding: 10px;
+        margin-top: 10px;
+    }
+
+    .resume-box {
+        clear: both;
+        margin-bottom: 10px;
+    }
+
+  
 }
