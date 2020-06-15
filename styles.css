@@ -11,7 +11,7 @@ body {
 }
 
 
-/* Basic Styles */
+/* Basic Text Styles */
 .sitetitle {
     color: white;
     text-transform: uppercase;
@@ -50,21 +50,8 @@ h4 {
     font-size: 1.5rem;
 }
 
-nav, 
-.header-container {
-    width: 100%;
-    background-color: #f5cb5c;
-}
 
-.header-container p {
-    text-align: left;
-    width: 90%;
-    padding-bottom: 20px;
-}
-
-
-
-/* Layout */
+/* NAV + HEADER */
 nav {
     text-align: center;
 }
@@ -78,6 +65,12 @@ nav {
     margin-top: 5px;
 }
 
+nav, 
+.header-container {
+    width: 100%;
+    background-color: #f5cb5c;
+}
+
 .header-container {
     text-align: center;
     padding-top: 40px;
@@ -87,6 +80,14 @@ nav {
 .header-container img {
     width: 50%;
 }
+
+.header-container p {
+    text-align: left;
+    width: 90%;
+    padding-bottom: 20px;
+}
+
+/* PORTFOLIO BOXES */
 
 .container {
     width: 100%;
@@ -114,6 +115,8 @@ nav {
     text-align: left;
     
 }
+
+/* RESUME */
 
 .resume-wrapper {
     width: 100%;
@@ -150,6 +153,8 @@ margin-bottom: 15px;
     border-top: solid .5px darkslategray;
 }
 
+/* FOOTER BAR */
+
 .footer-container {
     margin: 0 auto;
     width: 100%;
@@ -168,7 +173,7 @@ footer p {
     margin-top: 25px;
 }
 
-
+/* FOOTER NAVIGATION */
 
 .footer-nav {
     background-color: white;
@@ -185,15 +190,16 @@ footer p {
 
 .footer-nav-links {
     float: right;
-    margin-top: 10px;
+    margin-top: 18px;
     font-size: 14px;
 }
 
 .footer-nav li {
-    display: inline-block;
+    float: left;
     text-align: right;
     text-decoration: none;
-    margin-left: 5px;
+    margin-left: 8px;
+    list-style: none;
 }
 
 .footer-nav a {
@@ -208,17 +214,9 @@ footer p {
     color: lightseagreen;
 }
 
-.mobile-footer-link {
-    display: auto;
-}
-
 .wide-footer-link {
     display: none;
 }
-
-
-
-
 
 
 
@@ -284,8 +282,6 @@ footer p {
         width: 50%;
         min-height: 431px;
     } 
-
-
    
     .footer-nav {
         width: 90%;
@@ -294,16 +290,25 @@ footer p {
         font-size: 16px;
     }
 
-    .wide-footer-link {
-        display: auto;
+    .mobile-footer-link {
+        visibility: hidden;
+    }
+
+    .footer-nav-links {
+        float: right;
+        margin-top: 18px;
+        font-size: 14px;
     }
     
-    .mobile-footer-link {
-        display: none;
+    .footer-nav li {
+        display: inline-block;
+        text-align: right;
+        text-decoration: none;
+        margin-left: 8px;
+        list-style: none;
     }
-
-   
-
+    
+  
    
 }
 
@@ -386,5 +391,4 @@ footer p {
         margin-bottom: 10px;
     }
 
-  
 }
