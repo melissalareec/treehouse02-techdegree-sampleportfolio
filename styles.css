@@ -98,6 +98,7 @@ nav {
     width: 90%;
     text-align: center;
     padding: 25px;
+    min-height: 420px;
 
 }
 
@@ -108,6 +109,7 @@ nav {
 .portfolio-box p {
     margin-top: 15px;
     text-align: left;
+    
 }
 
 .footer-container {
